@@ -1,0 +1,25 @@
+TenderQApp Documentation: Tendering System
+
+1. Executive Overview
+•	Vision Statement: To deliver an efficient, error-resilient tendering platform that ensures punctual delivery and prevents staff burnout through automated workflow management across Technical, Financial, and Compilation departments.
+•	
+2. SDLC Framework
+•	Phase A: Planning (Feasibility and Resource Allocation)
+•	Phase B: Requirement Analysis (Functional & Compliance Specifications)
+•	Phase C: Design (System Architecture & UI/UX)
+•	Phase D: Development and Testing (Code Implementation & QA)
+•	Phase E: Deployment and Maintenance (Environment Setup & Post-Launch Support)
+
+ Docs-as-Code Folder Structure
+/TenderQApp
+├── /docs
+│   ├── /A-planning           # feasibility.md Feasibility studies, Project Charter
+│   ├── /B-requirements       # srs.md SRS, Use Cases, Compliance (GDPR/HIPAA)
+│   ├── /C-design             # architecture.md System Architecture, DB Schema, UML
+│   ├── /D-testing            # test-plan.md Test Plans, Test Cases, QA Reports
+│   └── /E-deployment         # runbook.md User Manual, Runbooks, Maintenance
+├── /src                      # Actual application code
+├── README.md                 # The "Front Door" (High-level summary + links)
+└── CONTRIBUTING.md           # Instructions for other developers
+
+
