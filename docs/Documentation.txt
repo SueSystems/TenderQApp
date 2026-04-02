@@ -23,3 +23,33 @@ TenderQApp Documentation: Tendering System
 └── CONTRIBUTING.md           # Instructions for other developers
 
 
+Market Research: Overview
+My research utilised AI—specifically Gemini—to evaluate general applications for tender responses in 2026. By narrowing the scope to Kenya, I identified several applications; however, none currently fulfil my requirement for a tendering module integrated within a broader ERP system.
+
+•	Feasibility Study: 
+o	Technical: Do we have the tech/skills to build this?
+Technical Feasibility
+Do we currently have every niche skill required? Not yet—but we have the capability to learn.
+Every development cycle brings unique challenges. By keeping development in-house, we turn the project into a vehicle for company growth. We’ve structured our timeline to allow for deep learning at a sustainable pace. After all, you only truly understand a system if you can explain it to a five-year-old in simple, non-technical terms.
+To deliver a high-quality product, we are mastering the full Software Development Life Cycle (SDLC) through these core functions:
+1.	System Engineering: Oversight of the entire application delivery process.
+2.	Back-End Development: The engine under the hood.
+o	Architecture: Choosing the right languages and frameworks.
+o	Core Logic: Writing the application code.
+o	QA/Testing: Ensuring efficiency and functionality.
+o	DevOps (CI/CD): Managing deployment and uptime.
+o	Database Engineering: Handling data storage and system logs.
+o	API Integration: Connecting our system with the wider ecosystem.
+o	Security & SRE: Ensuring regulatory compliance and long-term maintenance.
+3.	Front-End Development: Crafting the UI/UX to ensure ease of use and visual appeal.
+
+If this application matures into a solution for external clients, we will expand our scope to include The Facilitators. These roles bridge the gap between "it works for us" and "it wins in the market":
+
+4. The Facilitators:
+•	Product/Business Strategy: Ensuring the "Operational" and "Economic" feasibility aligns with the technical build.
+•	UX Research: Validating ease-of-use before a single line of code is written.
+•	Data Engineering: Turning system logs into growth insights.
+
+
+
+
