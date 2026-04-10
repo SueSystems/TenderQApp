@@ -51,5 +51,55 @@ If this application matures into a solution for external clients, we will expand
 •	Data Engineering: Turning system logs into growth insights.
 
 
+Economic Feasibility – Cost/Benefit Analysis
+Is the return on investment (ROI) worth the economic cost of development versus purchasing a solution?
+Yes. The ROI is justifiable because the cost of aligning all shareholders and stakeholders with a strategic plan is never low. True engagement of internal staff is only achieved by involving them directly in the development process. This represents both a challenge and a growth opportunity for the organisation and its personnel.
+Economically, we are investing in:
+•	Time: A precious commodity that cannot be regained. We have allocated approximately one hour daily (08:00 – 09:00) during the working week.
+•	Capital:
+o	Assets: Utilising existing hardware and computers.
+o	Software: Relevant licences as required.
+o	Personnel: No additional staffing costs, as all personnel are equipped for home-office working.
+o	Project Necessities: Funding for the full SDLC: Building, Testing, Hosting, Releasing, and Maintenance.
+•	Opportunity Costs:
+o	Time: A hybrid working schedule (3 days onsite, 2 days off-site) will be introduced to reduce commuting time.
+o	Budget Reallocation: Phone costs will be reduced by 50% by prioritising digital communication.
+o	Culture: The end-of-year team-bonding session will be held online this year to redirect funds.
+________________________________________
+Benefit Analysis
+This section quantifies the value the new system provides, categorised into tangible and intangible gains.
+Tangible Benefits
+Measurable gains such as:
+•	Reduced Transaction Costs: Resulting from the new hybrid working model.
+•	Increased Sales/Project Awards: More time dedicated to high-value networking and tender searches.
+•	Reduction in Manual Labour: Improved workflow efficiency and automated record-keeping through a new ERP module.
+Intangible Benefits
+•	Improved Brand Reputation: Due to a bolstered online presence.
+•	Higher Employee Morale: Resulting from reduced commuting hours and increased flexibility.
+________________________________________
+Key Financial Metrics
+To make a definitive "Go/No-Go" decision, the study includes these standard calculations:
+Approximated Cost: kshs 500,000.00
+Approximated Net Income/Profit: 1,000,000.00
+Assummed Rated 10%
+Number of years: 3 including the development year
+Metric	Value
+Return on Investment (ROI)	200%
+Payback Period	2 to 3 years (Targeting 3 successful project wins per year)
+Net Present Value (NPV)	Kshs 751,314.80 (Based on Future Value of kshs 1,000,000, 10% rate, 3 years)
+Benefit-Cost Ratio	1.50
+________________________________________
+The Big Picture
+While the technical study proved it can be built, the economic study proves it should be built. This section acts as the "Executive Summary" for the CFO.
+As the study demonstrates a high ROI and a manageable payback period, the project will now proceed to the Requirements Analysis phase. Our specific focus will be on reducing tender response times by 70%, directly increasing productivity and profitability.
+Future Metrics for Commercial Sale
+Should the application be productised for the wider market, we will monitor:
+1.	Business Metrics: Cost per feature, Customer Acquisition Cost (CAC) vs. Lifetime Value (LTV), and Time to Market (TTM).
+2.	Quality Metrics: Defect Leakage, Mean Time to Recovery (MTTR), and Code Coverage.
+3.	Efficiency Metrics: Throughput, Resource Utilisation, and Lead Time for Changes.
+Conclusion
+The Economic Feasibility study allows us to determine the Minimum Viable Cost required to enable development without straining current business operations.
+
+
 
 
