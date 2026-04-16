@@ -28,7 +28,7 @@ My research utilised AI—specifically Gemini—to evaluate general applications
 
 •	Feasibility Study: 
 o	Technical: Do we have the tech/skills to build this?
-Technical Feasibility
+1. Technical Feasibility
 Do we currently have every niche skill required? Not yet—but we have the capability to learn.
 Every development cycle brings unique challenges. By keeping development in-house, we turn the project into a vehicle for company growth. We’ve structured our timeline to allow for deep learning at a sustainable pace. After all, you only truly understand a system if you can explain it to a five-year-old in simple, non-technical terms.
 To deliver a high-quality product, we are mastering the full Software Development Life Cycle (SDLC) through these core functions:
@@ -51,7 +51,7 @@ If this application matures into a solution for external clients, we will expand
 •	Data Engineering: Turning system logs into growth insights.
 
 
-Economic Feasibility – Cost/Benefit Analysis
+2. Economic Feasibility – Cost/Benefit Analysis
 Is the return on investment (ROI) worth the economic cost of development versus purchasing a solution?
 Yes. The ROI is justifiable because the cost of aligning all shareholders and stakeholders with a strategic plan is never low. True engagement of internal staff is only achieved by involving them directly in the development process. This represents both a challenge and a growth opportunity for the organisation and its personnel.
 Economically, we are investing in:
@@ -100,6 +100,20 @@ Should the application be productised for the wider market, we will monitor:
 Conclusion
 The Economic Feasibility study allows us to determine the Minimum Viable Cost required to enable development without straining current business operations.
 
+
+Legal and operational feasibility studies bridge the gap between "good code" and "usable, compliant business software."
+
+3. Legal Feasibility
+This phase assesses whether the proposed system conflicts with legal requirements, data protection acts, or contractual obligations.
+•	Data Privacy: The application will strictly adhere to the Kenya Data Protection Act. Personal data—such as contact details for suppliers or officials—that is not in the public domain will be restricted. Access is limited to the company’s designated Contact Person unless documented authorization is provided.
+•	Audit Trails: To prevent fraud and resolve disputes, the system is "audit-ready." It maintains a chronological record, categorized by Procurement Entity, to track who approved an award or quote and when. This trail includes all correspondence up until the final certificate of recommendation.
+•	Electronic Signatures: To maintain authenticity, digital signatures will not be auto-generated; instead, they must be manually appended by the tender responder.
+•	Industry Standards: The module is designed to follow all Public Procurement Laws regarding tender responses in Kenya.
+
+4. Operational Feasibility
+This is the "Human Element" of the study—determining if the system fits the organization's culture and workflows.
+•	Usability & Adoption: The digital workflow is designed to be more intuitive than manual processes. By clicking on a current tender or quotation, users can view a visual graph indicating pending tasks and the personnel responsible.
+•	Stakeholder Buy-in: Because end-users are involved in the development process, the workflow is pre-approved. This ensures alignment with existing business processes, secures management support, and significantly reduces training time
 
 
 
