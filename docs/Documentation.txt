@@ -115,5 +115,21 @@ This is the "Human Element" of the study—determining if the system fits the or
 •	Usability & Adoption: The digital workflow is designed to be more intuitive than manual processes. By clicking on a current tender or quotation, users can view a visual graph indicating pending tasks and the personnel responsible.
 •	Stakeholder Buy-in: Because end-users are involved in the development process, the workflow is pre-approved. This ensures alignment with existing business processes, secures management support, and significantly reduces training time
 
+Market Research: Resource Allocation
+Last week, we concluded the market research feasibility study, covering both the legal and operational pillars.
+This week, we are tackling the second phase of market research following the feasibility study: Resource Allocation. This involves identifying the "who" and the "how much," including budget, team composition, and hardware/software requirements.
+Team Members
+Under Pillar 1 (Technical Feasibility) of our study, it was noted that we do not currently possess every niche skill required. Our stance remains: “Not yet—but we have the capacity to learn.”
+This presents an opportunity for our developer to leverage her Full-Stack Software Engineering expertise to build a business-first application: a Tendering and Quotation Response module for the company’s forthcoming ERP system.
+According to Pillar 4 (Operational Feasibility):
+“Stakeholder Buy-in: Because end-users are involved in the development process, the workflow is pre-approved. This ensures alignment with existing business processes, secures management support, and significantly reduces training time.”
+Aside from the lead developer, all stakeholders will remain integrated into the development process, maintaining the collaborative approach established during the initial SDLC planning phase.
+•	Finance: Personnel are tasked with ensuring fund availability.
+•	Administration & Operations: These teams are ensuring that work schedules are managed to prevent downtime during normal operations. They are also managing change density to ensure staff acceptance of the new development.
+•	Developer: She is responsible for the end-to-end development and usability of the application, managing both the front-end and back-end environments.
+Hardware & Software Tools
+The developer will utilise her current workstation. For any necessary software purchases, she will ensure the most cost-effective solutions for a team of no more than ten staff to minimise unnecessary expenditure.
+The Budget
+The allocated fund for this development is Ksh 500,000.00. As there are no cash incentives for stakeholders at this stage, this budget is strictly for essential purchases. This figure represents the "planned" cost; the "actual" cost will be realised upon completion. In lieu of cash bonuses, the reward for all stakeholders involved in this work will be company stock.
 
 
