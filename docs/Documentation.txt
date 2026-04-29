@@ -132,4 +132,21 @@ The developer will utilise her current workstation. For any necessary software p
 The Budget
 The allocated fund for this development is Ksh 500,000.00. As there are no cash incentives for stakeholders at this stage, this budget is strictly for essential purchases. This figure represents the "planned" cost; the "actual" cost will be realised upon completion. In lieu of cash bonuses, the reward for all stakeholders involved in this work will be company stock.
 
+Market Research Update: Risk Assessment
+Last week, I tackled the second component of my market research: Resource Allocation. This week, I am focusing on the third component: Risk Assessment.
+Risk assessment is about identifying potential "showstoppers" that could render the TenderQApp module unviable, unaffordable, or misaligned with the actual needs it serves—all before a single line of code is written.
+As a student Systems Engineer, this is my first time navigating a full SDLC, and I’ve identified the following key risk areas:
+1. Operational and Compliance Risks
+•	Regulatory/Structural Changes: The risk that government portals (IFMIS, e-GP) change their API structures, authentication, or data formats, potentially rendering my scraping tool obsolete overnight. Navigating the disparity between these government portals and private sector API structures is a significant hurdle.
+2. Financial and Project Risks
+•	Inaccurate Cost/Time Estimation: The danger of underestimating the maintenance required to keep scraping and response modules functional despite frequent external updates.
+•	Budget Overruns: Ensuring my capital allocation framework is robust enough to cover unexpected technical debt or the need for specialized engineering support.
+3. Technical Risks
+•	Tech Stack Obsolescence: Selecting frameworks or libraries that may lose community support, complicating long-term maintenance and troubleshooting.
+My Mitigation Strategy:
+1.	Risk Register: I have developed a tracker to categorize risks by Probability (High/Medium/Low) and Business Impact to ensure I stay ahead of potential blockers.
+2.	Early Validation: I am validating my core "business logic" by discussing architectural decisions with experienced mentors and professionals in the contracting space.
+3.	Feature Prioritization: Using a Value vs. Effort analysis to ruthlessly prioritize "must-have" features, ensuring the initial MVP is lean and high-impact.
+This marks the end of my Planning Quality Assurance study and my transition into Code Quality Assurance.
+
 
