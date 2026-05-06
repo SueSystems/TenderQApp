@@ -1,0 +1,168 @@
+TenderQApp Documentation: Tendering System
+
+1. Executive Overview
+•	Vision Statement: To deliver an efficient, error-resilient tendering platform that ensures punctual delivery and prevents staff burnout through automated workflow management across Technical, Financial, and Compilation departments.
+•	
+2. SDLC Framework
+•	Phase A: Planning (Feasibility and Resource Allocation)
+•	Phase B: Requirement Analysis (Functional & Compliance Specifications)
+•	Phase C: Design (System Architecture & UI/UX)
+•	Phase D: Development and Testing (Code Implementation & QA)
+•	Phase E: Deployment and Maintenance (Environment Setup & Post-Launch Support)
+
+ Docs-as-Code Folder Structure
+/TenderQApp
+├── /docs
+│   ├── /A-planning           # feasibility.md Feasibility studies, Project Charter
+│   ├── /B-requirements       # srs.md SRS, Use Cases, Compliance (GDPR/HIPAA)
+│   ├── /C-design             # architecture.md System Architecture, DB Schema, UML
+│   ├── /D-testing            # test-plan.md Test Plans, Test Cases, QA Reports
+│   └── /E-deployment         # runbook.md User Manual, Runbooks, Maintenance
+├── /src                      # Actual application code
+├── README.md                 # The "Front Door" (High-level summary + links)
+└── CONTRIBUTING.md           # Instructions for other developers
+
+
+Market Research: Overview
+My research utilised AI—specifically Gemini—to evaluate general applications for tender responses in 2026. By narrowing the scope to Kenya, I identified several applications; however, none currently fulfil my requirement for a tendering module integrated within a broader ERP system.
+
+•	Feasibility Study: 
+o	Technical: Do we have the tech/skills to build this?
+1. Technical Feasibility
+Do we currently have every niche skill required? Not yet—but we have the capability to learn.
+Every development cycle brings unique challenges. By keeping development in-house, we turn the project into a vehicle for company growth. We’ve structured our timeline to allow for deep learning at a sustainable pace. After all, you only truly understand a system if you can explain it to a five-year-old in simple, non-technical terms.
+To deliver a high-quality product, we are mastering the full Software Development Life Cycle (SDLC) through these core functions:
+1.	System Engineering: Oversight of the entire application delivery process.
+2.	Back-End Development: The engine under the hood.
+o	Architecture: Choosing the right languages and frameworks.
+o	Core Logic: Writing the application code.
+o	QA/Testing: Ensuring efficiency and functionality.
+o	DevOps (CI/CD): Managing deployment and uptime.
+o	Database Engineering: Handling data storage and system logs.
+o	API Integration: Connecting our system with the wider ecosystem.
+o	Security & SRE: Ensuring regulatory compliance and long-term maintenance.
+3.	Front-End Development: Crafting the UI/UX to ensure ease of use and visual appeal.
+
+If this application matures into a solution for external clients, we will expand our scope to include The Facilitators. These roles bridge the gap between "it works for us" and "it wins in the market":
+
+4. The Facilitators:
+•	Product/Business Strategy: Ensuring the "Operational" and "Economic" feasibility aligns with the technical build.
+•	UX Research: Validating ease-of-use before a single line of code is written.
+•	Data Engineering: Turning system logs into growth insights.
+
+
+2. Economic Feasibility – Cost/Benefit Analysis
+Is the return on investment (ROI) worth the economic cost of development versus purchasing a solution?
+Yes. The ROI is justifiable because the cost of aligning all shareholders and stakeholders with a strategic plan is never low. True engagement of internal staff is only achieved by involving them directly in the development process. This represents both a challenge and a growth opportunity for the organisation and its personnel.
+Economically, we are investing in:
+•	Time: A precious commodity that cannot be regained. We have allocated approximately one hour daily (08:00 – 09:00) during the working week.
+•	Capital:
+o	Assets: Utilising existing hardware and computers.
+o	Software: Relevant licences as required.
+o	Personnel: No additional staffing costs, as all personnel are equipped for home-office working.
+o	Project Necessities: Funding for the full SDLC: Building, Testing, Hosting, Releasing, and Maintenance.
+•	Opportunity Costs:
+o	Time: A hybrid working schedule (3 days onsite, 2 days off-site) will be introduced to reduce commuting time.
+o	Budget Reallocation: Phone costs will be reduced by 50% by prioritising digital communication.
+o	Culture: The end-of-year team-bonding session will be held online this year to redirect funds.
+________________________________________
+Benefit Analysis
+This section quantifies the value the new system provides, categorised into tangible and intangible gains.
+Tangible Benefits
+Measurable gains such as:
+•	Reduced Transaction Costs: Resulting from the new hybrid working model.
+•	Increased Sales/Project Awards: More time dedicated to high-value networking and tender searches.
+•	Reduction in Manual Labour: Improved workflow efficiency and automated record-keeping through a new ERP module.
+Intangible Benefits
+•	Improved Brand Reputation: Due to a bolstered online presence.
+•	Higher Employee Morale: Resulting from reduced commuting hours and increased flexibility.
+________________________________________
+Key Financial Metrics
+To make a definitive "Go/No-Go" decision, the study includes these standard calculations:
+Approximated Cost: kshs 500,000.00
+Approximated Net Income/Profit: 1,000,000.00
+Assummed Rated 10%
+Number of years: 3 including the development year
+Metric	Value
+Return on Investment (ROI)	200%
+Payback Period	2 to 3 years (Targeting 3 successful project wins per year)
+Net Present Value (NPV)	Kshs 751,314.80 (Based on Future Value of kshs 1,000,000, 10% rate, 3 years)
+Benefit-Cost Ratio	1.50
+________________________________________
+The Big Picture
+While the technical study proved it can be built, the economic study proves it should be built. This section acts as the "Executive Summary" for the CFO.
+As the study demonstrates a high ROI and a manageable payback period, the project will now proceed to the Requirements Analysis phase. Our specific focus will be on reducing tender response times by 70%, directly increasing productivity and profitability.
+Future Metrics for Commercial Sale
+Should the application be productised for the wider market, we will monitor:
+1.	Business Metrics: Cost per feature, Customer Acquisition Cost (CAC) vs. Lifetime Value (LTV), and Time to Market (TTM).
+2.	Quality Metrics: Defect Leakage, Mean Time to Recovery (MTTR), and Code Coverage.
+3.	Efficiency Metrics: Throughput, Resource Utilisation, and Lead Time for Changes.
+Conclusion
+The Economic Feasibility study allows us to determine the Minimum Viable Cost required to enable development without straining current business operations.
+
+
+Legal and operational feasibility studies bridge the gap between "good code" and "usable, compliant business software."
+
+3. Legal Feasibility
+This phase assesses whether the proposed system conflicts with legal requirements, data protection acts, or contractual obligations.
+•	Data Privacy: The application will strictly adhere to the Kenya Data Protection Act. Personal data—such as contact details for suppliers or officials—that is not in the public domain will be restricted. Access is limited to the company’s designated Contact Person unless documented authorization is provided.
+•	Audit Trails: To prevent fraud and resolve disputes, the system is "audit-ready." It maintains a chronological record, categorized by Procurement Entity, to track who approved an award or quote and when. This trail includes all correspondence up until the final certificate of recommendation.
+•	Electronic Signatures: To maintain authenticity, digital signatures will not be auto-generated; instead, they must be manually appended by the tender responder.
+•	Industry Standards: The module is designed to follow all Public Procurement Laws regarding tender responses in Kenya.
+
+4. Operational Feasibility
+This is the "Human Element" of the study—determining if the system fits the organization's culture and workflows.
+•	Usability & Adoption: The digital workflow is designed to be more intuitive than manual processes. By clicking on a current tender or quotation, users can view a visual graph indicating pending tasks and the personnel responsible.
+•	Stakeholder Buy-in: Because end-users are involved in the development process, the workflow is pre-approved. This ensures alignment with existing business processes, secures management support, and significantly reduces training time
+
+Market Research: Resource Allocation
+Last week, we concluded the market research feasibility study, covering both the legal and operational pillars.
+This week, we are tackling the second phase of market research following the feasibility study: Resource Allocation. This involves identifying the "who" and the "how much," including budget, team composition, and hardware/software requirements.
+Team Members
+Under Pillar 1 (Technical Feasibility) of our study, it was noted that we do not currently possess every niche skill required. Our stance remains: “Not yet—but we have the capacity to learn.”
+This presents an opportunity for our developer to leverage her Full-Stack Software Engineering expertise to build a business-first application: a Tendering and Quotation Response module for the company’s forthcoming ERP system.
+According to Pillar 4 (Operational Feasibility):
+“Stakeholder Buy-in: Because end-users are involved in the development process, the workflow is pre-approved. This ensures alignment with existing business processes, secures management support, and significantly reduces training time.”
+Aside from the lead developer, all stakeholders will remain integrated into the development process, maintaining the collaborative approach established during the initial SDLC planning phase.
+•	Finance: Personnel are tasked with ensuring fund availability.
+•	Administration & Operations: These teams are ensuring that work schedules are managed to prevent downtime during normal operations. They are also managing change density to ensure staff acceptance of the new development.
+•	Developer: She is responsible for the end-to-end development and usability of the application, managing both the front-end and back-end environments.
+Hardware & Software Tools
+The developer will utilise her current workstation. For any necessary software purchases, she will ensure the most cost-effective solutions for a team of no more than ten staff to minimise unnecessary expenditure.
+The Budget
+The allocated fund for this development is Ksh 500,000.00. As there are no cash incentives for stakeholders at this stage, this budget is strictly for essential purchases. This figure represents the "planned" cost; the "actual" cost will be realised upon completion. In lieu of cash bonuses, the reward for all stakeholders involved in this work will be company stock.
+
+Market Research Update: Risk Assessment
+Last week, I tackled the second component of my market research: Resource Allocation. This week, I am focusing on the third component: Risk Assessment.
+Risk assessment is about identifying potential "showstoppers" that could render the TenderQApp module unviable, unaffordable, or misaligned with the actual needs it serves—all before a single line of code is written.
+As a student Systems Engineer, this is my first time navigating a full SDLC, and I’ve identified the following key risk areas:
+1. Operational and Compliance Risks
+•	Regulatory/Structural Changes: The risk that government portals (IFMIS, e-GP) change their API structures, authentication, or data formats, potentially rendering my scraping tool obsolete overnight. Navigating the disparity between these government portals and private sector API structures is a significant hurdle.
+2. Financial and Project Risks
+•	Inaccurate Cost/Time Estimation: The danger of underestimating the maintenance required to keep scraping and response modules functional despite frequent external updates.
+•	Budget Overruns: Ensuring my capital allocation framework is robust enough to cover unexpected technical debt or the need for specialized engineering support.
+3. Technical Risks
+•	Tech Stack Obsolescence: Selecting frameworks or libraries that may lose community support, complicating long-term maintenance and troubleshooting.
+My Mitigation Strategy:
+1.	Risk Register: I have developed a tracker to categorize risks by Probability (High/Medium/Low) and Business Impact to ensure I stay ahead of potential blockers.
+2.	Early Validation: I am validating my core "business logic" by discussing architectural decisions with experienced mentors and professionals in the contracting space.
+3.	Feature Prioritization: Using a Value vs. Effort analysis to ruthlessly prioritize "must-have" features, ensuring the initial MVP is lean and high-impact.
+This marks the end of my Planning Quality Assurance study and my transition into Code Quality Assurance.
+
+The Analysis Phase: "What must it do?"
+Functional & Compliance Specifications Stage
+ 
+Purpose: Tender and Quotation Process
+•	Objective: To complete tenders within 48–36 hours before the submission deadline and ensure final submission occurs 12–6 hours prior to the closing time.
+•	Progress Tracking: Continuous reporting until successful completion and submission.
+________________________________________
+Stages
+1. Requirement Gathering Needs and expectations were identified by observing existing manual workflows.
+2. Defining Requirement Types
+•	Functional Requirements: The specific behaviour of the system (e.g., "The system must [Action]").
+•	Non-Functional Requirements: The "quality" and performance of the system, focusing on efficiency and effectiveness.
+3. Modelling the System Creating visual representations to ensure all stakeholders are aligned.
+•	Data Flow Diagrams (DFD): Mapping how data moves through the system.
+•	Use Case Diagrams: Outlining how different users (actors) interact with specific features.
+4. The Software Requirement Specification (SRS) The final "contract" of the analysis phase. This document lists every requirement in detail, serving as the definitive guide for developers and designers.
+
