@@ -166,3 +166,20 @@ Stages
 •	Use Case Diagrams: Outlining how different users (actors) interact with specific features.
 4. The Software Requirement Specification (SRS) The final "contract" of the analysis phase. This document lists every requirement in detail, serving as the definitive guide for developers and designers.
 
+
+
+Requirement Gathering—the fundamental reason for building the application- TenderQApp.
+1. Integration Requirements (The "Portal" Observation)
+•	Observation: Shift from scattered portals to a centralized e-GP.
+•	System Requirement: The TenderQApp must provide API integration capabilities or a "Scraper" function to pull data from the National e-GP, IFMIS portals and mails -marketing/quotations automatically.
+2. Compliance & Eligibility (The "Special Groups" Observation)
+•	Observation: Incorporation of Youth, Women, and PWD.
+•	System Requirement: The system must include a Compliance Profile Manager where the firm’s AGPO certificates and special group statuses are stored and automatically appended to relevant bids.
+3. Speed & Efficiency (The "5-Day Window" Observation)
+•	Observation: Tender windows have shrunk significantly.
+•	System Requirement: The app must feature Template Automation. Instead of drafting from scratch, the system should auto-populate standard bid documents (Forms of Tender, Confidential Business Questionnaires, Experience, Personnel, Audited Accounts, Litigation History, SD1 & SD2, Power of Attorney) using stored ERP data to meet tight deadlines.
+4. Remote Collaboration (The "Physical Presence" Observation)
+•	Observation: Need to reduce reliance on being physically in the office.
+•	System Requirement: The module must be Cloud-Based with a Workflow Approval Engine, allowing a manager to review and "e-sign" a bid from a mobile device while the staff is working remotely.
+
+Requirment Matrix table in Resposive Design Folder of Specialist 
