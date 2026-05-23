@@ -182,4 +182,33 @@ Requirement Gathering—the fundamental reason for building the application- Ten
 •	Observation: Need to reduce reliance on being physically in the office.
 •	System Requirement: The module must be Cloud-Based with a Workflow Approval Engine, allowing a manager to review and "e-sign" a bid from a mobile device while the staff is working remotely.
 
-Requirment Matrix table in Resposive Design Folder of Specialist 
+Requirment Matrix table in Resposive Design Folder of Specialist
+
+
+2nd Pillar of Requirements Analysis: Defining Requirement Types
+
+🔹 Functional Requirements: The specific behaviour of the system (e.g., "The system must [Action]"). 
+🔹 Non-Functional Requirements: The "quality" and performance of the system, focusing on efficiency, constraints, and user experience.
+Functional Requirements:
+•	Search Web and emails 
+•	Send messages and alerts
+•	Track time
+•	Show progress reports
+•	Store tender/quotation documents
+•	Connect to Procurement Portals (Synchronize for clarification questions, addenda, and submissions)
+•	Show yearly reports (All Tenders and Quotations: Advertised, Withdrawn, Submitted, Rejected, Won)
+•	Show issue/change logs indicating the way forward or alerts for attention (and who is assigned)
+•	User Management: Main and alternative user/admin roles 
+Non-Functional Requirements:
+•	Performance: The system must load within 2 seconds.
+•	Compatibility: Accessible via both Web and Mobile across all major browsers.
+•	Reliability: Optimized to function on low internet bandwidth.
+•	Offline Mode: Supports offline document editing with automatic cloud synchronization when connected.
+•	Scalability: The system architecture must scale to support user growth.
+System Features:
+•	Login / Authentication
+•	Dashboard
+•	Time Tracking
+•	Document Library
+•	Reporting Module
+ 
